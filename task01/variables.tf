@@ -8,7 +8,7 @@ variable "az_location" {
 }
 # VPC INFO
     variable "vnet_name" {
-      default = "Terravnet"
+      default = "myVnet"
     }
     
     variable "vnet_cidr" {
@@ -17,12 +17,12 @@ variable "az_location" {
 
 # SUBNET INFO
     variable "subnet_name"{
-      default = "terrasub" 
+      default = "mySubnet" 
       }
 
     variable "subnet_cidr"{
       default = "192.168.10.0/24"
       } 
   variable "sg_name" {
-    default = "terra_sg"
+    default = "myterraformnsg"
   }
